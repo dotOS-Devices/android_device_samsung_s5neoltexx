@@ -28,6 +28,6 @@ Rear Camera  | 16 MP, f/1.9, 31mm, autofocus, LED flash
 
 ![Galaxy S5 neo](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s5-neo-1.jpg "Galaxy S5 neo")
 
-This branch is for building LineageOS 15.1
+This branch is for building DotOS 2.x
 
 Model Supported : SM-G903F SM-G903M  SM-G903W
