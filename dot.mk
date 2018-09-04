@@ -25,6 +25,11 @@ $(call inherit-product, vendor/dot/config/common.mk)
 PRODUCT_NAME := dot_s5neoltexx
 PRODUCT_DEVICE := s5neoltexx
 PRODUCT_MODEL := SM-G903F
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_BRAND := Samsung
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+TARGET_VENDOR := samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="PixelBoot" \
