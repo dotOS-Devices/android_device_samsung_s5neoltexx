@@ -18,18 +18,13 @@
 # Initialise device config
 $(call inherit-product, device/samsung/s5neoltexx/full_s5neoltexx.mk)
 
-# Inherit common aosp stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit common Dot phone.
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := dot_s5neoltexx
 PRODUCT_DEVICE := s5neoltexx
 PRODUCT_MODEL := SM-G903F
-PRODUCT_BRAND := Samsung
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-TARGET_VENDOR := samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="PixelBoot" \
