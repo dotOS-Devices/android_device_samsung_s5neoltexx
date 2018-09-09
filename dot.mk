@@ -19,7 +19,7 @@
 $(call inherit-product, device/samsung/s5neoltexx/full_s5neoltexx.mk)
 
 # Inherit common Dot phone.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := dot_s5neoltexx
