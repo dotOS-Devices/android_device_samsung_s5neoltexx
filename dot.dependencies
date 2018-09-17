@@ -1,22 +1,22 @@
 [
     {
-        "repository": "android_device_samsung_exynos7580-common",
+        "repository": "dotOS-Devices/android_device_samsung_exynos7580-common",
         "target_path": "device/samsung/exynos7580-common"
     },
     {
-        "repository": "android_kernel_samsung_exynos7580",
+        "repository": "dotOS-Devices/android_kernel_samsung_exynos7580",
         "target_path": "kernel/samsung/exynos7580-common"
     },
     {
-        "repository": "proprietary_vendor_samsung_s5neoltexx",
+        "repository": "dotOS-Devices/proprietary_vendor_samsung_s5neoltexx",
         "target_path": "vendor/samsung/s5neoltexx"
     },
     {
-        "repository": "android_vendor_samsung_exynos7580-common",
+        "repository": "dotOS-Devices/android_vendor_samsung_exynos7580-common",
         "target_path": "vendor/samsung/exynos7580-common"
     },
     {
-        "repository": "android_external_protobuf-compat-2.6",
+        "repository": "dotOS-Devices/android_external_protobuf-compat-2.6",
         "target_path": "external/protobuf-compat-2.6"
     }
 ]
