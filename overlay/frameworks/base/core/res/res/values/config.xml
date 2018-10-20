@@ -189,4 +189,6 @@
         <item>XTRA_SERVER_1=http://gllto1.glpals.com/4day/v3/latest/lto2.dat</item>
         <item>XTRA_SERVER_2=http://gllto2.glpals.com/4day/v3/latest/lto2.dat</item>
      </string-array>
+     <!-- Hardware Keys Backlight Support -->
+     <bool name="config_button_brightness_support">true</bool>
 </resources>
